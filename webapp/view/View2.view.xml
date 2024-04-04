@@ -1,0 +1,6 @@
+<mvc:View controllerName="z99.fundamentos.controller.View2"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page2" title="{i18n>title2}">
+    </Page>
+</mvc:View>

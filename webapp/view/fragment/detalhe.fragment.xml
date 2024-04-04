@@ -1,0 +1,9 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+        <VBox>
+            <Label text="{estados>nome}" />
+            <Label text="{estados>abrev}" />
+            <Label text="{estados>pais}" />        
+        </VBox>    
+</core:FragmentDefinition>

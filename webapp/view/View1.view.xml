@@ -1,0 +1,21 @@
+<mvc:View controllerName="z99.fundamentos.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title2}">
+
+        <VBox>
+          <Label text="{modeloDadosPessoais>/Nome}" />
+          <Label text="{modeloDadosPessoais>/Sobrenome}" />
+          <Label text="{modeloDadosPessoais>/Idade}" />
+        
+
+           <List items="{estados>/valores}" itemPress="aoClicarItem"  >
+                <StandardListItem title="{estados>nome}" description="{estados>abrev}" type="Navigation" />
+           </List>
+
+
+
+        </VBox>
+
+    </Page>
+</mvc:View>
